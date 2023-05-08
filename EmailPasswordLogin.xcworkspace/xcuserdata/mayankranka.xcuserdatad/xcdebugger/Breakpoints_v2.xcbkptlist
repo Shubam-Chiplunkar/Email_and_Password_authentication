@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BC883607-EABC-40BF-A01C-00BDB0639DD7"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8BC24E3F-F4C4-4134-AD36-40607C0EC449"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EmailPasswordLogin/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "signInButtonClicked()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8BC24E3F-F4C4-4134-AD36-40607C0EC449 - 3a688ed12f7f2f78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EmailPasswordLogin.ViewController.signInButtonClicked() -&gt; ()"
+                  moduleName = "EmailPasswordLogin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mayankranka/Desktop/EmailPasswordLogin/EmailPasswordLogin/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "987">
+               </Location>
+               <Location
+                  uuid = "8BC24E3F-F4C4-4134-AD36-40607C0EC449 - 4055370ecc327566"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in EmailPasswordLogin.ViewController.signInButtonClicked() -&gt; ()"
+                  moduleName = "EmailPasswordLogin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mayankranka/Desktop/EmailPasswordLogin/EmailPasswordLogin/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "219">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A7F4528C-43C2-434E-97E1-6DE0C7C983E5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EmailPasswordLogin/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "showCreateAccount(email:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A7F4528C-43C2-434E-97E1-6DE0C7C983E5 - 76e4227ccc0e9ba3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIAlertAction) -&gt; () in EmailPasswordLogin.ViewController.showCreateAccount(email: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "EmailPasswordLogin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mayankranka/Desktop/EmailPasswordLogin/EmailPasswordLogin/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "101">
+               </Location>
+               <Location
+                  uuid = "A7F4528C-43C2-434E-97E1-6DE0C7C983E5 - cf360127a2b418d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (__C.UIAlertAction) -&gt; () in EmailPasswordLogin.ViewController.showCreateAccount(email: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "EmailPasswordLogin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mayankranka/Desktop/EmailPasswordLogin/EmailPasswordLogin/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  uuid = "A7F4528C-43C2-434E-97E1-6DE0C7C983E5 - cf360127a2b418d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (__C.UIAlertAction) -&gt; () in EmailPasswordLogin.ViewController.showCreateAccount(email: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "EmailPasswordLogin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mayankranka/Desktop/EmailPasswordLogin/EmailPasswordLogin/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "143">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

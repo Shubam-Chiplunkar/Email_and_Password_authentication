@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7235887600D21FA684D4B55D /* Pods_EmailPasswordLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7938092E1C639A54C137A2A0 /* Pods_EmailPasswordLogin.framework */; };
+		94BCBB8D16A1C4D3C2EAFCE2 /* Pods_EmailPasswordLoginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F97FDC1BC8D5D07E102CCD /* Pods_EmailPasswordLoginTests.framework */; };
+		A042AEDE2A08B412000A00A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A042AEDD2A08B412000A00A1 /* AppDelegate.swift */; };
+		A042AEE02A08B412000A00A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A042AEDF2A08B412000A00A1 /* SceneDelegate.swift */; };
+		A042AEE22A08B412000A00A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A042AEE12A08B412000A00A1 /* ViewController.swift */; };
+		A042AEE52A08B412000A00A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A042AEE32A08B412000A00A1 /* Main.storyboard */; };
+		A042AEE72A08B419000A00A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A042AEE62A08B419000A00A1 /* Assets.xcassets */; };
+		A042AEEA2A08B419000A00A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A042AEE82A08B419000A00A1 /* LaunchScreen.storyboard */; };
+		A042AEF52A08B419000A00A1 /* EmailPasswordLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A042AEF42A08B419000A00A1 /* EmailPasswordLoginTests.swift */; };
+		A042AEFF2A08B419000A00A1 /* EmailPasswordLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A042AEFE2A08B419000A00A1 /* EmailPasswordLoginUITests.swift */; };
+		A042AF012A08B419000A00A1 /* EmailPasswordLoginUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A042AF002A08B419000A00A1 /* EmailPasswordLoginUITestsLaunchTests.swift */; };
+		A042AF162A08D687000A00A1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A042AF152A08D687000A00A1 /* GoogleService-Info.plist */; };
+		CE063B412836F6EBD3C1B4E0 /* Pods_EmailPasswordLogin_EmailPasswordLoginUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC90CF0A1056B0E5C551AEF /* Pods_EmailPasswordLogin_EmailPasswordLoginUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A042AEF12A08B419000A00A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A042AED22A08B412000A00A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A042AED92A08B412000A00A1;
+			remoteInfo = EmailPasswordLogin;
+		};
+		A042AEFB2A08B419000A00A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A042AED22A08B412000A00A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A042AED92A08B412000A00A1;
+			remoteInfo = EmailPasswordLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		497A89C334079E7ECCCD5A8A /* Pods-EmailPasswordLogin-EmailPasswordLoginUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmailPasswordLogin-EmailPasswordLoginUITests.debug.xcconfig"; path = "Target Support Files/Pods-EmailPasswordLogin-EmailPasswordLoginUITests/Pods-EmailPasswordLogin-EmailPasswordLoginUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FC93FA8D8F890076C53A389 /* Pods-EmailPasswordLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmailPasswordLogin.debug.xcconfig"; path = "Target Support Files/Pods-EmailPasswordLogin/Pods-EmailPasswordLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		77F97FDC1BC8D5D07E102CCD /* Pods_EmailPasswordLoginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmailPasswordLoginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7938092E1C639A54C137A2A0 /* Pods_EmailPasswordLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmailPasswordLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A042AEDA2A08B412000A00A1 /* EmailPasswordLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmailPasswordLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A042AEDD2A08B412000A00A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A042AEDF2A08B412000A00A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A042AEE12A08B412000A00A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A042AEE42A08B412000A00A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A042AEE62A08B419000A00A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A042AEE92A08B419000A00A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A042AEEB2A08B419000A00A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A042AEF02A08B419000A00A1 /* EmailPasswordLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmailPasswordLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A042AEF42A08B419000A00A1 /* EmailPasswordLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailPasswordLoginTests.swift; sourceTree = "<group>"; };
+		A042AEFA2A08B419000A00A1 /* EmailPasswordLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmailPasswordLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A042AEFE2A08B419000A00A1 /* EmailPasswordLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailPasswordLoginUITests.swift; sourceTree = "<group>"; };
+		A042AF002A08B419000A00A1 /* EmailPasswordLoginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailPasswordLoginUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A042AF152A08D687000A00A1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A341FBBD1BCACEF2B0624DB5 /* Pods-EmailPasswordLoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmailPasswordLoginTests.release.xcconfig"; path = "Target Support Files/Pods-EmailPasswordLoginTests/Pods-EmailPasswordLoginTests.release.xcconfig"; sourceTree = "<group>"; };
+		CFE6F62151C6BD0ED7F101B5 /* Pods-EmailPasswordLogin-EmailPasswordLoginUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmailPasswordLogin-EmailPasswordLoginUITests.release.xcconfig"; path = "Target Support Files/Pods-EmailPasswordLogin-EmailPasswordLoginUITests/Pods-EmailPasswordLogin-EmailPasswordLoginUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D8C34EDBAAC12FBC45DC858F /* Pods-EmailPasswordLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmailPasswordLogin.release.xcconfig"; path = "Target Support Files/Pods-EmailPasswordLogin/Pods-EmailPasswordLogin.release.xcconfig"; sourceTree = "<group>"; };
+		E876EFBE230AFC30F8F40D65 /* Pods-EmailPasswordLoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmailPasswordLoginTests.debug.xcconfig"; path = "Target Support Files/Pods-EmailPasswordLoginTests/Pods-EmailPasswordLoginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECC90CF0A1056B0E5C551AEF /* Pods_EmailPasswordLogin_EmailPasswordLoginUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmailPasswordLogin_EmailPasswordLoginUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A042AED72A08B412000A00A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7235887600D21FA684D4B55D /* Pods_EmailPasswordLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A042AEED2A08B419000A00A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BCBB8D16A1C4D3C2EAFCE2 /* Pods_EmailPasswordLoginTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A042AEF72A08B419000A00A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE063B412836F6EBD3C1B4E0 /* Pods_EmailPasswordLogin_EmailPasswordLoginUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		362171B8C95BBBC3879BC654 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FC93FA8D8F890076C53A389 /* Pods-EmailPasswordLogin.debug.xcconfig */,
+				D8C34EDBAAC12FBC45DC858F /* Pods-EmailPasswordLogin.release.xcconfig */,
+				497A89C334079E7ECCCD5A8A /* Pods-EmailPasswordLogin-EmailPasswordLoginUITests.debug.xcconfig */,
+				CFE6F62151C6BD0ED7F101B5 /* Pods-EmailPasswordLogin-EmailPasswordLoginUITests.release.xcconfig */,
+				E876EFBE230AFC30F8F40D65 /* Pods-EmailPasswordLoginTests.debug.xcconfig */,
+				A341FBBD1BCACEF2B0624DB5 /* Pods-EmailPasswordLoginTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9CB393D6809E1C23897ACBE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7938092E1C639A54C137A2A0 /* Pods_EmailPasswordLogin.framework */,
+				ECC90CF0A1056B0E5C551AEF /* Pods_EmailPasswordLogin_EmailPasswordLoginUITests.framework */,
+				77F97FDC1BC8D5D07E102CCD /* Pods_EmailPasswordLoginTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A042AED12A08B412000A00A1 = {
+			isa = PBXGroup;
+			children = (
+				A042AEDC2A08B412000A00A1 /* EmailPasswordLogin */,
+				A042AEF32A08B419000A00A1 /* EmailPasswordLoginTests */,
+				A042AEFD2A08B419000A00A1 /* EmailPasswordLoginUITests */,
+				A042AEDB2A08B412000A00A1 /* Products */,
+				362171B8C95BBBC3879BC654 /* Pods */,
+				9CB393D6809E1C23897ACBE7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A042AEDB2A08B412000A00A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A042AEDA2A08B412000A00A1 /* EmailPasswordLogin.app */,
+				A042AEF02A08B419000A00A1 /* EmailPasswordLoginTests.xctest */,
+				A042AEFA2A08B419000A00A1 /* EmailPasswordLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A042AEDC2A08B412000A00A1 /* EmailPasswordLogin */ = {
+			isa = PBXGroup;
+			children = (
+				A042AEDD2A08B412000A00A1 /* AppDelegate.swift */,
+				A042AF152A08D687000A00A1 /* GoogleService-Info.plist */,
+				A042AEDF2A08B412000A00A1 /* SceneDelegate.swift */,
+				A042AEE12A08B412000A00A1 /* ViewController.swift */,
+				A042AEE32A08B412000A00A1 /* Main.storyboard */,
+				A042AEE62A08B419000A00A1 /* Assets.xcassets */,
+				A042AEE82A08B419000A00A1 /* LaunchScreen.storyboard */,
+				A042AEEB2A08B419000A00A1 /* Info.plist */,
+			);
+			path = EmailPasswordLogin;
+			sourceTree = "<group>";
+		};
+		A042AEF32A08B419000A00A1 /* EmailPasswordLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				A042AEF42A08B419000A00A1 /* EmailPasswordLoginTests.swift */,
+			);
+			path = EmailPasswordLoginTests;
+			sourceTree = "<group>";
+		};
+		A042AEFD2A08B419000A00A1 /* EmailPasswordLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A042AEFE2A08B419000A00A1 /* EmailPasswordLoginUITests.swift */,
+				A042AF002A08B419000A00A1 /* EmailPasswordLoginUITestsLaunchTests.swift */,
+			);
+			path = EmailPasswordLoginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A042AED92A08B412000A00A1 /* EmailPasswordLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A042AF042A08B419000A00A1 /* Build configuration list for PBXNativeTarget "EmailPasswordLogin" */;
+			buildPhases = (
+				0262A0E507F21FA4245C075F /* [CP] Check Pods Manifest.lock */,
+				A042AED62A08B412000A00A1 /* Sources */,
+				A042AED72A08B412000A00A1 /* Frameworks */,
+				A042AED82A08B412000A00A1 /* Resources */,
+				6B4BFF96B7FA3F1C26223FDB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmailPasswordLogin;
+			productName = EmailPasswordLogin;
+			productReference = A042AEDA2A08B412000A00A1 /* EmailPasswordLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A042AEEF2A08B419000A00A1 /* EmailPasswordLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A042AF072A08B419000A00A1 /* Build configuration list for PBXNativeTarget "EmailPasswordLoginTests" */;
+			buildPhases = (
+				6CC2FEF0A7F574F239DE2BDD /* [CP] Check Pods Manifest.lock */,
+				A042AEEC2A08B419000A00A1 /* Sources */,
+				A042AEED2A08B419000A00A1 /* Frameworks */,
+				A042AEEE2A08B419000A00A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A042AEF22A08B419000A00A1 /* PBXTargetDependency */,
+			);
+			name = EmailPasswordLoginTests;
+			productName = EmailPasswordLoginTests;
+			productReference = A042AEF02A08B419000A00A1 /* EmailPasswordLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A042AEF92A08B419000A00A1 /* EmailPasswordLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A042AF0A2A08B419000A00A1 /* Build configuration list for PBXNativeTarget "EmailPasswordLoginUITests" */;
+			buildPhases = (
+				62BAE321A1C1446E41364E95 /* [CP] Check Pods Manifest.lock */,
+				A042AEF62A08B419000A00A1 /* Sources */,
+				A042AEF72A08B419000A00A1 /* Frameworks */,
+				A042AEF82A08B419000A00A1 /* Resources */,
+				B9A4DA662131C4FBA32AB946 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A042AEFC2A08B419000A00A1 /* PBXTargetDependency */,
+			);
+			name = EmailPasswordLoginUITests;
+			productName = EmailPasswordLoginUITests;
+			productReference = A042AEFA2A08B419000A00A1 /* EmailPasswordLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A042AED22A08B412000A00A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A042AED92A08B412000A00A1 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					A042AEEF2A08B419000A00A1 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = A042AED92A08B412000A00A1;
+					};
+					A042AEF92A08B419000A00A1 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = A042AED92A08B412000A00A1;
+					};
+				};
+			};
+			buildConfigurationList = A042AED52A08B412000A00A1 /* Build configuration list for PBXProject "EmailPasswordLogin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A042AED12A08B412000A00A1;
+			productRefGroup = A042AEDB2A08B412000A00A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A042AED92A08B412000A00A1 /* EmailPasswordLogin */,
+				A042AEEF2A08B419000A00A1 /* EmailPasswordLoginTests */,
+				A042AEF92A08B419000A00A1 /* EmailPasswordLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A042AED82A08B412000A00A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A042AEEA2A08B419000A00A1 /* LaunchScreen.storyboard in Resources */,
+				A042AF162A08D687000A00A1 /* GoogleService-Info.plist in Resources */,
+				A042AEE72A08B419000A00A1 /* Assets.xcassets in Resources */,
+				A042AEE52A08B412000A00A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A042AEEE2A08B419000A00A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A042AEF82A08B419000A00A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0262A0E507F21FA4245C075F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EmailPasswordLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62BAE321A1C1446E41364E95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EmailPasswordLogin-EmailPasswordLoginUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B4BFF96B7FA3F1C26223FDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EmailPasswordLogin/Pods-EmailPasswordLogin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EmailPasswordLogin/Pods-EmailPasswordLogin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EmailPasswordLogin/Pods-EmailPasswordLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CC2FEF0A7F574F239DE2BDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EmailPasswordLoginTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9A4DA662131C4FBA32AB946 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EmailPasswordLogin-EmailPasswordLoginUITests/Pods-EmailPasswordLogin-EmailPasswordLoginUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EmailPasswordLogin-EmailPasswordLoginUITests/Pods-EmailPasswordLogin-EmailPasswordLoginUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EmailPasswordLogin-EmailPasswordLoginUITests/Pods-EmailPasswordLogin-EmailPasswordLoginUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A042AED62A08B412000A00A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A042AEE22A08B412000A00A1 /* ViewController.swift in Sources */,
+				A042AEDE2A08B412000A00A1 /* AppDelegate.swift in Sources */,
+				A042AEE02A08B412000A00A1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A042AEEC2A08B419000A00A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A042AEF52A08B419000A00A1 /* EmailPasswordLoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A042AEF62A08B419000A00A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A042AF012A08B419000A00A1 /* EmailPasswordLoginUITestsLaunchTests.swift in Sources */,
+				A042AEFF2A08B419000A00A1 /* EmailPasswordLoginUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A042AEF22A08B419000A00A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A042AED92A08B412000A00A1 /* EmailPasswordLogin */;
+			targetProxy = A042AEF12A08B419000A00A1 /* PBXContainerItemProxy */;
+		};
+		A042AEFC2A08B419000A00A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A042AED92A08B412000A00A1 /* EmailPasswordLogin */;
+			targetProxy = A042AEFB2A08B419000A00A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A042AEE32A08B412000A00A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A042AEE42A08B412000A00A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A042AEE82A08B419000A00A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A042AEE92A08B419000A00A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A042AF022A08B419000A00A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A042AF032A08B419000A00A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A042AF052A08B419000A00A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FC93FA8D8F890076C53A389 /* Pods-EmailPasswordLogin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EmailPasswordLogin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nimapinfotech.EmailPasswordLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A042AF062A08B419000A00A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8C34EDBAAC12FBC45DC858F /* Pods-EmailPasswordLogin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EmailPasswordLogin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nimapinfotech.EmailPasswordLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A042AF082A08B419000A00A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E876EFBE230AFC30F8F40D65 /* Pods-EmailPasswordLoginTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nimapinfotech.EmailPasswordLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmailPasswordLogin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EmailPasswordLogin";
+			};
+			name = Debug;
+		};
+		A042AF092A08B419000A00A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A341FBBD1BCACEF2B0624DB5 /* Pods-EmailPasswordLoginTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nimapinfotech.EmailPasswordLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmailPasswordLogin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EmailPasswordLogin";
+			};
+			name = Release;
+		};
+		A042AF0B2A08B419000A00A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 497A89C334079E7ECCCD5A8A /* Pods-EmailPasswordLogin-EmailPasswordLoginUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nimapinfotech.EmailPasswordLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmailPasswordLogin;
+			};
+			name = Debug;
+		};
+		A042AF0C2A08B419000A00A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFE6F62151C6BD0ED7F101B5 /* Pods-EmailPasswordLogin-EmailPasswordLoginUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nimapinfotech.EmailPasswordLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmailPasswordLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A042AED52A08B412000A00A1 /* Build configuration list for PBXProject "EmailPasswordLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A042AF022A08B419000A00A1 /* Debug */,
+				A042AF032A08B419000A00A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A042AF042A08B419000A00A1 /* Build configuration list for PBXNativeTarget "EmailPasswordLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A042AF052A08B419000A00A1 /* Debug */,
+				A042AF062A08B419000A00A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A042AF072A08B419000A00A1 /* Build configuration list for PBXNativeTarget "EmailPasswordLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A042AF082A08B419000A00A1 /* Debug */,
+				A042AF092A08B419000A00A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A042AF0A2A08B419000A00A1 /* Build configuration list for PBXNativeTarget "EmailPasswordLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A042AF0B2A08B419000A00A1 /* Debug */,
+				A042AF0C2A08B419000A00A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A042AED22A08B412000A00A1 /* Project object */;
+}
